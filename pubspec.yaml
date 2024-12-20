@@ -1,0 +1,28 @@
+name: yemek_secme_v2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.9.2
+
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "/desktop/burger.png"  
+
+flutter:
+  uses-material-design: true
